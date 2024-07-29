@@ -35,20 +35,6 @@ After completing the [Contact Us Tutorial](https://documentation.platformos.com/
    git init
    ```
 
-```
-hint: Using 'master' as the name for the initial branch. This default branch name
-hint: is subject to change. To configure the initial branch name to use in all
-hint: of your new repositories, which will suppress this warning, call:
-hint: 
-hint: 	git config --global init.defaultBranch <name>
-hint: 
-hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
-hint: 'development'. The just-created branch can be renamed via this command:
-hint: 
-hint: 	git branch -m <name>
-```
-
-
 4. **Add Files to Staging**:
    Add all your project files to the staging area:
    ```bash
@@ -100,17 +86,3 @@ hint: 	git branch -m <name>
      ```
 
 Congratulations! You have successfully created a GitHub repository and connected it to your local project. This will make it easier to manage your code, collaborate with others, and keep track of changes as you continue developing with PlatformOS.
-
----
-
-…or create a new repository on the command line
-
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin git@github.com:simplykatsa/test-init-repo.git
-git push -u origin main
-…or push an existing repository from the command line
-git remote add origin git@github.com:simplykatsa/test-init-repo.git
-git branch -M main
